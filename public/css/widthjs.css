@@ -1,0 +1,14 @@
+.background {
+  position: absolute;
+
+  background:url(http://upload.wikimedia.org/wikipedia/commons/9/9b/Jelly_cc13.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
