@@ -2,19 +2,29 @@
 <html>
 
 <head>
-  <title>iPhone Orientation Quirks</title>
+  <title></title>
   <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+  <link href="css/videojs_test.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+  <script src="http://vjs.zencdn.net/c/video.js"></script>
+  <script src="javascripts/vendor/jquery-1.7.1.min.js"></script>
+  <script src="javascripts/videojs_test.js"></script>
 
 </head>
 
 <body>
+
+  <video id="my_video_1" class="video-js vjs-default-skin" controls
+  preload="auto" width="640" height="264"
+  data-setup="{}">
+  <source src="movies/video_for_judy.mp4" type='video/mp4'>
+  </video>
+
   <ul>
-    <li><a href="orientation">Orientation change causes both orientationchange and resize to fire.</a></li>
-    <li><a href="widthjs">Changing width with JavaScript</a></li>
-    <li><a href="widthcss">Changing width with CSS</a></li>
-    <li><a href="wrapper">With a wrapper</a></li>
+    <li><a href="#" id="singing">Singing</a></li>
+    <li><a href="#" id="silly">Silly</a></li>
   </ul>
+
 
 </body>
 
